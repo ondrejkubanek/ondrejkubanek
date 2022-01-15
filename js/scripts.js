@@ -44,29 +44,4 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
-$(".navbar-brand").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#page-top").offset().top
-    }, 1000);
-});
-$(".href-about-more").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#about-more").offset().top
-    }, 1000);
-});
-$(".nav-link-about").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#about").offset().top
-    }, 1000);
-});
-$(".nav-link-projects").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#projects").offset().top
-    }, 1000);
-});
-$(".nav-link-contact").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#contact").offset().top
-    }, 1000);
-});
 
