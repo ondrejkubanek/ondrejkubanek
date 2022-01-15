@@ -1,12 +1,3 @@
-/*!
-* Start Bootstrap - Grayscale v7.0.4 (https://startbootstrap.com/theme/grayscale)
-* Copyright 2013-2021 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-grayscale/blob/master/LICENSE)
-*/
-//
-// Scripts
-// 
-
 window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function
@@ -51,5 +42,31 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+});
+
+$(".navbar-brand").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#page-top").offset().top
+    }, 1000);
+});
+$(".href-about-more").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#about-more").offset().top
+    }, 1000);
+});
+$(".nav-link-about").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#about").offset().top
+    }, 1000);
+});
+$(".nav-link-projects").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#projects").offset().top
+    }, 1000);
+});
+$(".nav-link-contact").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#contact").offset().top
+    }, 1000);
 });
 
