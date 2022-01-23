@@ -11703,3 +11703,19 @@ justify-content: center;
   height: 66px;
   
 }
+
+
+.buttonNahoru{
+  display:none;
+  position: fixed;
+  bottom: 30px;
+  right: 40px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #568259 !important;
+  padding: 10px 15px 10px 15px;
+  border-radius: 50%;
+  color: #ffffff;
+}
