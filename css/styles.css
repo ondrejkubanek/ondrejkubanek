@@ -10803,13 +10803,12 @@ body {
 padding: 1.01rem 0 1.43rem 0.14rem;
 }
 .contact-section {
-  padding-top: 2rem;
+  padding-top: 4rem;
 }
 .contact-section .social {
-  margin-top: 5rem;
+  margin-top: 4rem;
 }
 .contact-section .social a {
-
   text-align: center;
   height: 4rem;
   width: 4rem;
@@ -10833,9 +10832,9 @@ padding: 1.01rem 0 1.43rem 0.14rem;
 
 
 .move-down-bounce{
-  -moz-animation: move-down-bounce 2.5s infinite;
--webkit-animation: move-down-bounce 2.5s infinite;
-  animation: move-down-bounce 2.5s infinite;
+  -moz-animation: move-down-bounce 2s infinite;
+-webkit-animation: move-down-bounce 2s infinite;
+  animation: move-down-bounce 2s infinite;
 }
 
 .header-homepage-arrow{
@@ -10886,8 +10885,6 @@ justify-content: center;
   
   .scroll-down{
     bottom: -6rem;
-    left: 46%;
+    left: 45%;
   }
-
-  
 }
