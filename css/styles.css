@@ -628,10 +628,17 @@ progress {
     max-width: 540px;
   }
 }
+@media (max-width: 991px) {
+  
+  .mb-small{
+    margin-bottom: 3rem;
+  }
+}
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
     max-width: 720px;
   }
+ 
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
