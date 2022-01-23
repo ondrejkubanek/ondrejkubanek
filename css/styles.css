@@ -11587,6 +11587,29 @@ body {
   margin-bottom: 5rem;
 }
 
+.about-more-section {
+  padding: 10rem 0 1rem 0;
+}
+
+@media (min-width: 992px) {
+  .about-more-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #568259;
+  }
+}
+.about-more-section.project-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+@media (min-width: 992px) {
+ 
+  .about-more-section .project-text hr {
+    border-color: #568259;
+    border-width: 0.25rem;
+    width: 30%;
+  }
+}
+
 .projects-section {
   padding: 10rem 0;
 }
@@ -11604,9 +11627,7 @@ body {
   font-size: 90%;
 }
 @media (min-width: 992px) {
-  .projects-section .project-text {
-    padding: 5rem;
-  }
+ 
   .projects-section .project-text hr {
     border-color: #568259;
     border-width: 0.25rem;
