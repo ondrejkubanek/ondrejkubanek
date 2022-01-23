@@ -10873,8 +10873,8 @@ justify-content: center;
 
 .scroll-down{
   position: absolute;
-  bottom: 4rem;
-  left: 50%;
+  bottom: 2rem;
+  left: 48%;
   transition: all .25s ease-in-out;
   color: #ffffff;  
   opacity: .8;
@@ -10885,7 +10885,8 @@ justify-content: center;
 @media (max-width: 991px) {
   
   .scroll-down{
-    bottom: 0rem;
+    bottom: -6rem;
+    left: 46%;
   }
 
   
