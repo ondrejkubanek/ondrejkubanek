@@ -10921,34 +10921,8 @@ justify-content: center;
   margin:0 auto 50px
 }
 
-.notfound .notfound-404 > div:first-child {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: #568259;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-  border: 5px dashed #000;
-  border-radius:5px
-}
-
-.notfound .notfound-404 > div:first-child:before {
-  content: '';
-  position: absolute;
-  left: -5px;
-  right: -5px;
-  bottom: -5px;
-  top: -5px;
-  -webkit-box-shadow: 0 0 0 5px rgba(0, 0, 0, .1) inset;
-  box-shadow: 0 0 0 5px rgba(0, 0, 0, .1) inset;
-  border-radius:5px
-}
 
 .notfound .notfound-404 h1 {
-  color:#ffffff;
   font-weight: 700;
   margin: 0;
   font-size: 90px;
@@ -10960,7 +10934,6 @@ justify-content: center;
   left: 50%;
   text-align: center;
   height: 40px;
-  line-height:40px
 }
 
 .notfound h2 {
