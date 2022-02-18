@@ -1,0 +1,1 @@
+Tento web je dostupný na adrese https://www.ondrejkubanek.cz/
