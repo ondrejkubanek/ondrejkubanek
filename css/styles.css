@@ -43,11 +43,7 @@
   box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  :root {
-    scroll-behavior: smooth;
-  }
-}
+
 
 body {
   margin: 0;
@@ -10832,9 +10828,9 @@ padding: 1.01rem 0 1.43rem 0.14rem;
 
 
 .move-down-bounce{
-  -moz-animation: move-down-bounce 0.5s infinite;
--webkit-animation: move-down-bounce 0.5s infinite;
-  animation: move-down-bounce 0.5s infinite;
+  -moz-animation: move-down-bounce 0.1s infinite;
+-webkit-animation: move-down-bounce 0.1s infinite;
+  animation: move-down-bounce 0.1s infinite;
 }
 
 .header-homepage-arrow{
