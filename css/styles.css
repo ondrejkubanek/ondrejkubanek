@@ -10800,6 +10800,7 @@ padding: 1.01rem 0 1.43rem 0.14rem;
 }
 .contact-section {
   padding-top: 4rem;
+  background:linear-gradient(to top, #000 0%, rgba(0, 0, 0, 0.9) 100%, rgba(0, 0, 0, 0.8) 20%);
 }
 .contact-section .social {
   margin-top: 4rem;
