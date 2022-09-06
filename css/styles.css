@@ -2458,8 +2458,6 @@ textarea.form-control-lg {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  -webkit-print-color-adjust: exact;
-          color-adjust: exact;
 }
 .form-check-input[type=checkbox] {
   border-radius: 0.25em;
@@ -10963,4 +10961,8 @@ justify-content: center;
 
 .notfound a:hover {
   background-color: #3f5340;
+}
+
+#copy{
+  padding-top:2.7rem;
 }
