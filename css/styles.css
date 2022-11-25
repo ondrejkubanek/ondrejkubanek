@@ -10969,7 +10969,6 @@ justify-content: center;
   padding-top:2.7rem;
 }
 
-.pdf-project{
-  height: 370px!important;
-  
+img{
+  -webkit-user-drag: none;
 }
